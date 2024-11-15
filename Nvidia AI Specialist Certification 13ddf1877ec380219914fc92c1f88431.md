@@ -49,7 +49,6 @@ The video was produced in a 640x640 resolution.
 
 [비디오 리사이저 - 온라인에서 무료로 비디오 해상도 변경](https://online-video-cutter.com/ko/resize-video)
 
-![image.png](image.png)
 ![image](https://github.com/user-attachments/assets/8f2f8ac8-5680-49e4-bc90-bc9a6239e59f)
 
 ---
@@ -66,7 +65,7 @@ Unzip the DarkLabel2.4.zip file.
 
 Open the darklabel.yml file from the unzipped DarkLabel2.4.zip files to modify the classes of the custom dataset.
 
-![ym.png](ym.png)
+![ym](https://github.com/user-attachments/assets/d93e6ec3-dd48-4839-a67f-3bcf02d7415f)
 
 my_classes1을 찾아 "복사하여 붙여넣기"를 한다.  
 그런 다음 이름을 "my_classes1"에서 "my_classes2"로 변경하고 대괄호 안의 이름들을 사용할 이름으로 변경한 다음 저장한다.
@@ -74,7 +73,7 @@ my_classes1을 찾아 "복사하여 붙여넣기"를 한다.
 Find my_classes1 and "copy and paste" it.
 Then, change the name from "my_classes1" to "my_classes2", modify the names inside the brackets to the desired names, and save the file.
 
-![c.png](c.png)
+![c](https://github.com/user-attachments/assets/d39c5a78-be9f-42e2-beb1-46a52e6180f7)
 
 아래로 스크롤하면 이름이 format1인 블록이 있다.
 이 블록에서 classes_set을 확인하고 값을 사용자 정의 데이터 세트(my_classes2)로 변경한다.
@@ -83,8 +82,7 @@ Then, change the name from "my_classes1" to "my_classes2", modify the names insi
 Scroll down to find a block named format1.
 In this block, locate classes_set and change its value to the custom dataset (my_classes2).
 Then, rename it to the desired name (trafficlights).
-
-![화면 캡처 2024-11-15 211753.png](%25ED%2599%2594%25EB%25A9%25B4_%25EC%25BA%25A1%25EC%25B2%2598_2024-11-15_211753.png)
+![%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-11-15_211753](https://github.com/user-attachments/assets/ea06be98-2fe6-4327-8a9f-83441210034f)
 
 ---
 
