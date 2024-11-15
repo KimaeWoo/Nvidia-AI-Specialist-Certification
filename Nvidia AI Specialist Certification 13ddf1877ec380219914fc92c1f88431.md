@@ -1,4 +1,4 @@
-**주제(Title)**
+# 주제(Title)
 
 YOLOv5를 이용한 보행자 신호등 인식 시스템
 
@@ -104,8 +104,8 @@ images 폴더 안에 이미지가 들어온 걸 확인할 수 있다.
 You can confirm that the images have been placed inside the **images** folder.
 
 ![image 1](https://github.com/user-attachments/assets/46e4d1e3-3c8a-425a-99e6-1c63dff88440)
-![image 2](https://github.com/user-attachments/assets/4df18537-6a51-4f1d-accf-ded14f250fd1)
 
+![image 2](https://github.com/user-attachments/assets/4df18537-6a51-4f1d-accf-ded14f250fd1)
 변환된 이미지를 DarkLabel을 통해 라벨링을 한다.
 
 - **name**을 trafficlights로 설정한다.
