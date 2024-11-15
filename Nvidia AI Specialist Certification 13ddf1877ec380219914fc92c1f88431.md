@@ -218,20 +218,17 @@ Move to the yolov5 folder and train the YOLOv5 model.
 
 **PR_curve**
 
-![PR_curve.png](PR_curve.png)
-
-![labels.jpg](labels.jpg)
+![PR_curve](https://github.com/user-attachments/assets/92e336b5-2cbd-47bd-ae38-75dc0e8ed349)
 
 **P_curve**
 
-![PR_curve](https://github.com/user-attachments/assets/92e336b5-2cbd-47bd-ae38-75dc0e8ed349)
+![P_curve](https://github.com/user-attachments/assets/d09e21fd-3177-4b1d-8ba7-4239250f6508)
 
 **R_curve**
 
 ![R_curve](https://github.com/user-attachments/assets/d6edb5ef-cf78-4968-81d8-b658c0a4b4a1)
 
 **results**
-![results](https://github.com/user-attachments/assets/9fbd0239-0080-4531-bc20-47c66a2ca007)# Nvidia AI Specialist Certification
 
 ![results](https://github.com/user-attachments/assets/2990594a-c0e2-450e-b21f-a479e3aaae4a)
 
