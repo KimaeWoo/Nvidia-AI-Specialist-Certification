@@ -107,12 +107,9 @@ You can confirm that the images have been placed inside the **images** folder.
 
 ![image 2](https://github.com/user-attachments/assets/4df18537-6a51-4f1d-accf-ded14f250fd1)
 변환된 이미지를 DarkLabel을 통해 라벨링을 한다.
-
 - **name**을 trafficlights로 설정한다.
 - trafficlights라는 classes가 추가 되었고 밑에 2개의 class가 추가된 것을 확인할 수 있다
-
 The transformed images are labeled using DarkLabel.
-
 - Set the **name** to trafficlights.
 - You will see that the trafficlights class has been added, and two additional classes are added below it
 
