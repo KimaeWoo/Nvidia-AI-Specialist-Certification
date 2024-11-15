@@ -45,6 +45,7 @@ https://drive.google.com/file/d/17ThrTrNpC5KSL9nVv0W3rXhCKNeJH0YG/view?usp=drive
 
 The video was produced in a 640x640 resolution.
 
+
 [비디오 리사이저 - 온라인에서 무료로 비디오 해상도 변경](https://online-video-cutter.com/ko/resize-video)
 
 ![image](https://github.com/user-attachments/assets/8f2f8ac8-5680-49e4-bc90-bc9a6239e59f)
@@ -58,6 +59,7 @@ DarkLabel2.4.zip 파일의 압축을 풀어준다.
 Unzip the DarkLabel2.4.zip file.
 
 [https://drive.google.com/file/d/1dqSHf-FHZo4GdNJDY1dg0cgEp33zzNZc/view?usp=drive_link](https://drive.google.com/file/d/1dqSHf-FHZo4GdNJDY1dg0cgEp33zzNZc/view?usp=drive_link)
+
 
 사용자 정의 데이터 세트의 클래스를 수정하기 위해 압축해제된 DarkLabel2.4.zip 파일 중 darklabel.yml 파일을 연다. 
 
@@ -80,6 +82,7 @@ Then, change the name from "my_classes1" to "my_classes2", modify the names insi
 Scroll down to find a block named format1.
 In this block, locate classes_set and change its value to the custom dataset (my_classes2).
 Then, rename it to the desired name (trafficlights).
+
 ![%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-11-15_211753](https://github.com/user-attachments/assets/ea06be98-2fe6-4327-8a9f-83441210034f)
 
 ---
@@ -100,23 +103,28 @@ The DarkLabel program allows you to convert video into images frame by frame.
 - Disable the **labeled frames only** checkbox.
 - Use **as images** to save the frames as images inside a folder named **images**.
 
+
 images 폴더 안에 이미지가 들어온 걸 확인할 수 있다.
+
 You can confirm that the images have been placed inside the **images** folder.
 
 ![image 1](https://github.com/user-attachments/assets/46e4d1e3-3c8a-425a-99e6-1c63dff88440)
 
+
 ![image 2](https://github.com/user-attachments/assets/4df18537-6a51-4f1d-accf-ded14f250fd1)
+
 변환된 이미지를 DarkLabel을 통해 라벨링을 한다.
 - **name**을 trafficlights로 설정한다.
 - trafficlights라는 classes가 추가 되었고 밑에 2개의 class가 추가된 것을 확인할 수 있다
+  
 The transformed images are labeled using DarkLabel.
 - Set the **name** to trafficlights.
 - You will see that the trafficlights class has been added, and two additional classes are added below it
 
+
 DarkLabel에서 **Open Image Folder**를 통해 images 폴더를 선택하여 변환된 이미지를 불러왔다. **Box + Label**로 선택 후 아래 사진과 같이 해당 class에 부합하는 신호에 Annotation을 했다. Annotation이 끝난 후 **GT Save As**를 통해 **labels**라는 폴더를 만들고 해당 폴더 안에 저장을 했다.
 
 In DarkLabel, after selecting the images folder through **Open Image Folder**, you loaded the converted images. Then, by selecting **Box + Label**, you performed annotation on the images, matching the appropriate class for each signal as shown in the image.
-
 Once the annotation was complete, you used **GT Save As** to create a **labels** folder and saved the annotated labels inside that folder.
 
 ![123](https://github.com/user-attachments/assets/69faefef-87fd-4ac6-a225-9d2d5cce84a6)
@@ -130,6 +138,7 @@ labels 안에 Annotation한 txt파일이 있다.
 There are annotation txt files inside the labels folder.
 
 ![image 3](https://github.com/user-attachments/assets/ba6142de-a652-40d6-b7f9-e88807bd8691)
+
 
 ### dataset_trafficlights.zip
 
@@ -147,6 +156,7 @@ To install Git on the NVIDIA Jetson Nano.
 sudo apt-get install git
 ```
 
+
 YOLOv5 저장소를 GitHub에서  복사(클론)
 
 Clone the YOLOv5 repository from GitHub.
@@ -154,6 +164,7 @@ Clone the YOLOv5 repository from GitHub.
 ```python
 git clone https://github.com/ultralytics/yolov5.git
 ```
+
 
 ### YOLOv5
 
@@ -163,6 +174,7 @@ Go to https://github.com/ultralytics/yolov5 and download the YOLOv5n Model by dr
 
 ![image 4](https://github.com/user-attachments/assets/52bc0d59-628f-46fd-b885-1c455f8e46ff)
 
+
 YOLOv5에서 python을 쓰는데 Python 패키지들을 쉽게 설치, 관리할 수 있게 해주는 도구인 pip를 설치한다.
 
 In YOLOv5, install pip, a tool that simplifies the installation and management of Python packages.
@@ -170,6 +182,7 @@ In YOLOv5, install pip, a tool that simplifies the installation and management o
 ```python
 sudo apt-get install pip
 ```
+
 
 yolov5 폴더에 들어간 후 모든 의존성 패키지를 설치
 
@@ -179,15 +192,19 @@ After entering the YOLOv5 folder, install all the dependency packages.
 pip install -r requirements.txt
 ```
 
+
 yolov5n.pt 파일을 yolov5 폴더 안에 넣는다
 
 Place the yolov5n.pt file inside the YOLOv5 folder.
 
 ![%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-15_224641](https://github.com/user-attachments/assets/252a3bae-b4de-443a-a30a-25f29baf5dc6)
 
+
 train, valid 폴더 안에는 DarkLabel에서 만든 images와 labels 넣고 test에는 images만 넣는다. 
 data.yaml 파일을  classes에 맞게 파일을 수정한다.
+
 Place the images and labels created by DarkLabel inside the train and valid folders, and place only the images inside the test folder. Modify the data.yaml file to match the classes.
+
 
 ### data.yaml
 
@@ -196,6 +213,7 @@ Place the images and labels created by DarkLabel inside the train and valid fold
 ```python
 python3 train.py --img 640 --batch 16 --epochs 300 --data /home/amap/yolov5/data.yaml --cfg ./models/yolov5n.yaml --weights yolov5n.pt --name trafficlights --patience 0
 ```
+
 
 yolov5 폴더로 이동하고 YOLOv5 모델을 학습시킨다.
 
