@@ -39,7 +39,7 @@ https://drive.google.com/file/d/17ThrTrNpC5KSL9nVv0W3rXhCKNeJH0YG/view?usp=drive
 
 # 프로젝트 진행(Project Progress)
 
-## 1. ****해상도 조절(Resolution adjustment)
+## 1. 해상도 조절(Resolution adjustment)
 
 영상은 640x640 해상도로 제작하였다.
 
@@ -140,7 +140,7 @@ There are annotation txt files inside the labels folder.
 
 ---
 
-## 5. ****NVIDIA Jetson Nano 학습 (Learning NVIDIA Jetson Nano)
+## 5. NVIDIA Jetson Nano 학습 (Learning NVIDIA Jetson Nano)
 
 Nvidia Jetson Nano에 git을 설치한다. 
 
