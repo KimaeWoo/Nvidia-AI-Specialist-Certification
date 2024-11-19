@@ -45,19 +45,19 @@ Open the darklabel.yml file from the unzipped DarkLabel2.4.zip files to modify t
 Find my_classes1 and "copy and paste" it.
 Then, change the name from "my_classes1" to "my_classes2", modify the names inside the brackets to the desired names, and save the file.
 
-![c](https://github.com/user-attachments/assets/d39c5a78-be9f-42e2-beb1-46a52e6180f7)
+![class](https://github.com/user-attachments/assets/c2206a42-c21b-44bf-a675-021f2a4b58c4)
 
 Scroll down to find a block named format1.
 In this block, locate classes_set and change its value to the custom dataset (my_classes2).
 Then, rename it to the desired name (trafficlights).
 
-![%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-11-15_211753](https://github.com/user-attachments/assets/ea06be98-2fe6-4327-8a9f-83441210034f)
+![label](https://github.com/user-attachments/assets/ac01090d-6319-4f2d-b7ac-8dec740b7b20)
 
 ---
 
 ## **3. Image labeling
 
-![%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-11-15_2125251](https://github.com/user-attachments/assets/258370d3-061d-4b78-ad61-eacad82380b4)
+![openvideo](https://github.com/user-attachments/assets/0593b365-0fab-434f-8303-d8d219ab103d)
 
 The DarkLabel program allows you to convert video into images frame by frame.
 
@@ -69,9 +69,8 @@ You can confirm that the images have been placed inside the **images** folder.
 
 ![image 1](https://github.com/user-attachments/assets/46e4d1e3-3c8a-425a-99e6-1c63dff88440)
 
+![clc](https://github.com/user-attachments/assets/9c5c6356-da87-45d1-9818-dd85e1892e21)
 
-![image 2](https://github.com/user-attachments/assets/4df18537-6a51-4f1d-accf-ded14f250fd1)
- 
 The transformed images are labeled using DarkLabel.
 - Set the **name** to trafficlights.
 - You will see that the trafficlights class has been added, and two additional classes are added below it
@@ -79,7 +78,7 @@ The transformed images are labeled using DarkLabel.
 In DarkLabel, after selecting the images folder through **Open Image Folder**, you loaded the converted images. Then, by selecting **Box + Label**, you performed annotation on the images, matching the appropriate class for each signal as shown in the image.
 Once the annotation was complete, you used **GT Save As** to create a **labels** folder and saved the annotated labels inside that folder.
 
-![123](https://github.com/user-attachments/assets/69faefef-87fd-4ac6-a225-9d2d5cce84a6)
+![openim](https://github.com/user-attachments/assets/7a18b061-bcf0-40e1-a0fd-b88575643879)
 
 ---
 
@@ -138,7 +137,7 @@ Place the images and labels created by DarkLabel inside the train and valid fold
 
 ### data.yaml
 
-![image 5](https://github.com/user-attachments/assets/044439cc-a4f6-42d8-b733-ca04d418d54a)
+![cl](https://github.com/user-attachments/assets/cd84cc75-d861-4cc1-ab21-75622e04c5e1)
 
 ```python
 python3 train.py --img 640 --batch 16 --epochs 300 --data /home/amap/yolov5/data.yaml --cfg ./models/yolov5n.yaml --weights yolov5n.pt --name trafficlights --patience 0
