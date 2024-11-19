@@ -115,6 +115,7 @@ Go to https://github.com/ultralytics/yolov5 and download the YOLOv5n Model by dr
 In YOLOv5, install pip, a tool that simplifies the installation and management of Python packages.
 
 ```python
+cd yolov5
 sudo apt-get install pip
 ```
 
