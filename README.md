@@ -16,15 +16,7 @@ By recognizing red and green lights, this system can warn users when the signal 
 
 I personally filmed the traffic lights with a camera based on pedestrians.
 
-https://drive.google.com/file/d/1kTYNL0dp_NbFa0JHGF8kAk8d1qW1VTaK/view?usp=drive_link
-
-https://drive.google.com/file/d/15RlsCy17xYsFmKmfDRIRP7sV4xK4lApV/view?usp=drive_link
-
-https://drive.google.com/file/d/110kz_kcRg88W8BUZFMv9iTLMPJrSsnnw/view?usp=drive_link
-
-https://drive.google.com/file/d/1Ay8WfdIXiCEtiD24UNFgoLWyVGq6aDMk/view?usp=drive_link
-
-https://drive.google.com/file/d/17ThrTrNpC5KSL9nVv0W3rXhCKNeJH0YG/view?usp=drive_link
+https://github.com/KimaeWoo/Nvidia-AI-Specialist-Certification/tree/main/videos
 
 ---
 
