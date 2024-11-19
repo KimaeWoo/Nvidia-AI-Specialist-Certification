@@ -34,7 +34,7 @@ https://drive.google.com/file/d/17ThrTrNpC5KSL9nVv0W3rXhCKNeJH0YG/view?usp=drive
 
 The video was produced in a 640x640 resolution.
 
-[비디오 리사이저 - 온라인에서 무료로 비디오 해상도 변경](https://online-video-cutter.com/ko/resize-video)
+[Change video](https://online-video-cutter.com/ko/resize-video)
 
 ![image](https://github.com/user-attachments/assets/8f2f8ac8-5680-49e4-bc90-bc9a6239e59f)
 
