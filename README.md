@@ -67,7 +67,7 @@ The DarkLabel program allows you to convert video into images frame by frame.
 
 You can confirm that the images have been placed inside the **images** folder.
 
-![image 1](https://github.com/user-attachments/assets/46e4d1e3-3c8a-425a-99e6-1c63dff88440)
+![image](https://github.com/user-attachments/assets/3e336287-c340-4438-bac2-f3355a3d6acc)
 
 ![clc](https://github.com/user-attachments/assets/9c5c6356-da87-45d1-9818-dd85e1892e21)
 
@@ -86,8 +86,7 @@ Once the annotation was complete, you used **GT Save As** to create a **labels**
 
 There are annotation txt files inside the labels folder.
 
-![image 3](https://github.com/user-attachments/assets/ba6142de-a652-40d6-b7f9-e88807bd8691)
-
+![label](https://github.com/user-attachments/assets/766ab722-fe75-4899-8613-fddb25c66762)
 
 ### dataset_trafficlights.zip
 
@@ -149,7 +148,7 @@ Move to the yolov5 folder and train the YOLOv5 model.
 
 ## 6. Training results
 
-[https://drive.google.com/file/d/1NoxU0OTbxHcavuQ4_1iSTWhVZiBOCrrw/view?usp=drive_link](https://drive.google.com/file/d/1NoxU0OTbxHcavuQ4_1iSTWhVZiBOCrrw/view?usp=drive_link)
+https://github.com/KimaeWoo/Nvidia-AI-Specialist-Certification/tree/main/train_result
 
 ![confusion_matrix](https://github.com/user-attachments/assets/5ddd5f35-b0ff-4605-a3e4-03594a4c4c4f)
 
