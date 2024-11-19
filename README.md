@@ -32,7 +32,7 @@ The video was produced in a 640x640 resolution.
 
 ---
 
-## **2. Class settings
+## 2. Class settings
 
 Unzip the DarkLabel2.4.zip file.
 
