@@ -136,7 +136,7 @@ Place the images and labels created by DarkLabel inside the train and valid fold
 ![cl](https://github.com/user-attachments/assets/cd84cc75-d861-4cc1-ab21-75622e04c5e1)
 
 ```python
-python3 train.py --img 640 --batch 16 --epochs 300 --data /home/amap/yolov5/data.yaml --cfg ./models/yolov5n.yaml --weights yolov5n.pt --name trafficlights --patience 0
+python3 train.py --img 640 --batch 16 --epochs 300 --data /home/amap/yolov5/data.yaml --cfg ./models/yolov5n.yaml --weights yolov5n.pt --name PedestrianLight --patience 0
 ```
 
 Move to the yolov5 folder and train the YOLOv5 model.
@@ -180,9 +180,9 @@ https://github.com/KimaeWoo/Nvidia-AI-Specialist-Certification/tree/main/train_r
 Use the best.pt file to run detect.py and check the training results.
 
 ```python
-python3 detect.py --weights /home/amap/yolov5/runs/train/trafficlights/weights/best.pt --img 640 --source /home/amap/yolov5/test/images --name trafficlights_detect
+python3 detect.py --weights /home/amap/yolov5/runs/train/PedestrianLight/weights/best.pt --img 640 --source /home/amap/yolov5/test/images --name PedestrianLight_detect
 ```
 ```python
-python3 detect.py --weights /home/amap/yolov5/runs/train/trafficlights/weights/best.pt --source /home/amap/yolov5/video/vd.mp4  
+python3 detect.py --weights /home/amap/yolov5/runs/train/PedestrianLight/weights/best.pt --source /home/amap/yolov5/video/vd.mp4  
 ```
 https://drive.google.com/drive/folders/1b8ZBkT0qLQtPoepsfehJ1vqPVYqI7x1P?usp=drive_link
