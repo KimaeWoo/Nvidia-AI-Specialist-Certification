@@ -88,10 +88,6 @@ There are annotation txt files inside the labels folder.
 
 ![label](https://github.com/user-attachments/assets/766ab722-fe75-4899-8613-fddb25c66762)
 
-### dataset_trafficlights.zip
-
-[https://drive.google.com/file/d/1HPdnRoOBzZWke4vHnRtD3q58zgsKio-r/view?usp=sharing](https://drive.google.com/file/d/1HPdnRoOBzZWke4vHnRtD3q58zgsKio-r/view?usp=sharing)
-
 ---
 
 ## 5. Learning NVIDIA Jetson Nano
@@ -150,35 +146,35 @@ Move to the yolov5 folder and train the YOLOv5 model.
 
 https://github.com/KimaeWoo/Nvidia-AI-Specialist-Certification/tree/main/train_result
 
-![confusion_matrix](https://github.com/user-attachments/assets/5ddd5f35-b0ff-4605-a3e4-03594a4c4c4f)
+![confusion_matrix](https://github.com/user-attachments/assets/4c7f8057-4ad1-469c-9725-13e0ceb629cb)
 
 **F1_curve**
 
-![F1_curve](https://github.com/user-attachments/assets/6e8f2d7e-da2c-46d1-a870-dbb4f175d4cf)
+![F1_curve](https://github.com/user-attachments/assets/65989efd-5ae0-4d21-89b9-c59124400e30)
 
 **PR_curve**
 
-![PR_curve](https://github.com/user-attachments/assets/92e336b5-2cbd-47bd-ae38-75dc0e8ed349)
+![PR_curve](https://github.com/user-attachments/assets/a7749a90-5042-4e5d-9896-674a379b7613)
 
 **P_curve**
 
-![P_curve](https://github.com/user-attachments/assets/d09e21fd-3177-4b1d-8ba7-4239250f6508)
+![P_curve](https://github.com/user-attachments/assets/f0c80809-9e40-41c7-965a-f51432484e83)
 
 **R_curve**
 
-![R_curve](https://github.com/user-attachments/assets/d6edb5ef-cf78-4968-81d8-b658c0a4b4a1)
+![R_curve](https://github.com/user-attachments/assets/2e1d43a9-d687-4c37-90ce-980ef7595f57)
 
 **results**
 
-![results](https://github.com/user-attachments/assets/2990594a-c0e2-450e-b21f-a479e3aaae4a)
+![results](https://github.com/user-attachments/assets/72deb542-e177-4b6f-a1ac-394bbdd9dc69)
 
 **train_batch**
 
-![train_batch0](https://github.com/user-attachments/assets/b03b2fed-40e4-48c9-95f9-1125c2809d88)
+![train_batch0](https://github.com/user-attachments/assets/b0698b34-be9d-4042-aeb8-a3ec92463601)
 
 **val_batch**
 
-![val_batch0_labels](https://github.com/user-attachments/assets/091e2c67-7e49-4760-8ca0-b6acf041b560)
+![val_batch0_labels](https://github.com/user-attachments/assets/a9dbdf6a-21c3-43ad-9b89-8f799d8ecbbb)
 
 Use the best.pt file to run detect.py and check the training results.
 
