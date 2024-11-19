@@ -17,6 +17,7 @@ By recognizing red and green lights, this system can warn users when the signal 
 I personally filmed the traffic lights with a camera based on pedestrians.
 
 https://github.com/KimaeWoo/Nvidia-AI-Specialist-Certification/tree/main/videos
+https://drive.google.com/drive/folders/1BfpmHf8qt7EXabV7Y13wpMp_dLCuZPce?usp=drive_link
 
 ---
 
@@ -184,7 +185,4 @@ python3 detect.py --weights /home/amap/yolov5/runs/train/trafficlights/weights/b
 ```python
 python3 detect.py --weights /home/amap/yolov5/runs/train/trafficlights/weights/best.pt --source /home/amap/yolov5/video/vd.mp4  
 ```
-
-[https://drive.google.com/file/d/1Pl3qyDuGbhlGC-NF-4FxQXB6xFK3YOXv/view?usp=drive_link](https://drive.google.com/file/d/1Pl3qyDuGbhlGC-NF-4FxQXB6xFK3YOXv/view?usp=drive_link)
-
-[https://drive.google.com/file/d/18myvFtzZuim-FDa5yDStlrVW0_nNJaUd/view?usp=drive_link](https://drive.google.com/file/d/18myvFtzZuim-FDa5yDStlrVW0_nNJaUd/view?usp=drive_link)
+https://drive.google.com/drive/folders/1b8ZBkT0qLQtPoepsfehJ1vqPVYqI7x1P?usp=drive_link
