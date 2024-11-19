@@ -181,19 +181,6 @@ Use the best.pt file to run detect.py and check the training results.
 ```python
 python3 detect.py --weights /home/amap/yolov5/runs/train/trafficlights/weights/best.pt --img 640 --source /home/amap/yolov5/test/images --name trafficlights_detect
 ```
-
-**Training results through detect.py**
-
-![00000047](https://github.com/user-attachments/assets/3e47392c-3bf0-465f-9c7e-559e3865e5b1)
-
-![00000452](https://github.com/user-attachments/assets/286370d9-c064-4a6b-9854-9b75670dcc60)
-
-![00000207](https://github.com/user-attachments/assets/608dcfb6-3a9d-4603-b08d-6ec2ce9cd28c)
-
-![00000525](https://github.com/user-attachments/assets/8632ccc4-e30f-4e9b-9dd3-d4a544b623ed)
-
-**Video**
-
 ```python
 python3 detect.py --weights /home/amap/yolov5/runs/train/trafficlights/weights/best.pt --source /home/amap/yolov5/video/vd.mp4  
 ```
